@@ -1,6 +1,12 @@
 header {
     width: 750px;
     padding: 10px;
+    width: 980px;
+    margin: 10px auto;
+    font-family: sans-serif;
+    line-height: 2;
+    background color: #F5F5F5;
+    color: black;
 }
 body {
     width: 980px;
