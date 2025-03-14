@@ -1,45 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Albatross</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/app.css">
+  <title>Форма регистрации</title>
 </head>
 <body>
-   <header>
-    <h1>Albatross</h1>
-   </header> 
-   <main>
-    <section>
-    <h2>About Albatross</h2>
-    <p>Albatross is a type of sea bird. There are 21 species of albatross that live mainly in the south hemisphere. They inhabit Antarctica, Australia, South Africa and South America. Rare species of albatross live in the northern hemisphere and inhabit Alaska, Hawaii and California. Albatross spends almost entire life on the ocean. It can be seen on the land only during the mating season. 19 out of 21 albatross species are endangered because of the by-catch (birds end up trapped in the fishing nets), decrease of their natural prey, introduction of invasive species (which eat eggs and young birds) and massive hunting.
-</p>
-</section>
-<section>
-    <h2>Interesting facts</h2>
-<ul>
-    <li>Size of albatross depends on the species. They can reach 35 to 51 inches in length and weigh between 17 and 22 pounds.
-    </li>
-    <li>Wandering albatross has a wingspan of 11 feet. This is the biggest wingspan in the world of birds.
-    </li>
-    <li>Albatross has excellent eyesight and sense of smell. It can find the prey even in the dark.
-    </li>
-    <li>
-        Albatross can reach the speed of 40 miles per hour. It can fly long period of time without rest.
-    </li>
-    <li>
-        Albatross does not have a lot of natural enemies. Besides humans, main predator is tiger shark which hunts young birds that are learning to fly.
-    </li>
-    <li>
-        Albatrosses will gather on the isolated and remote island for mating. They usually breed every 18 months. Certain species are monogamous.
-    </li>
-    <li>
-        Albatross has very long lifespan. It can survive up to 50 years in the wild.
-    </li>
-</ul>
-</section>
-    
-   </main>
+  <div class="container">
+    <form>
+    <h2>Регистрация</h2>
+    <label for="name">Имя</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email">Электронная почта</label>
+    <input type="email" id="email" name="email" required>
+    <label for="password">Пароль</label>
+    <input type="password" id="password" name="password" required>
+    <label for="confirm-password">Подтверждение пароля</label>
+    <input type="password" id="confirm-password" name="confirm-password" required>
+    <button type="submit">Зарегистрироваться</button>
+    </form>
+  </div>
 </body>
 </html>
