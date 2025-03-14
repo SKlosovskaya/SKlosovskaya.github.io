@@ -1,0 +1,24 @@
+header {
+    width: 750px;
+    padding: 10px;
+}
+body {
+    width: 980px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    line-height: 1.5;
+    background color: #F5F5F5;
+    color: black;
+}
+h1 {
+text-align: center;
+font-weight: bold;
+font-size: 36px;
+margin-bottom: 0;
+}
+h2 {
+    text-align: center;
+    font-weight: bold
+    font-size: 24px;
+}
+
